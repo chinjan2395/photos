@@ -120,8 +120,7 @@
                                 echo CHtml::hiddenField('highestRow', $j);
                                 echo CHtml::submitButton(
                                     'Import',
-                                    array('class' => 'btn-default btn-lg')
-                                );
+                                    array('class' => 'btn-default btn-lg'));
                                 ?>
                             </div>
                             <div class="col-md-2 form-group" style="float: right">
@@ -131,7 +130,6 @@
                                     array('class'=>'form-control','style' => 'margin: 14px;')
                                 ); ?>
                             </div>
-
                         </div>
                     </form>
 
